@@ -1,55 +1,13 @@
-# created by virtualenv automatically
-.idea/
-# OS / 편집기
+# -------------------------------
+# OS / Editor
+# -------------------------------
 .DS_Store
 .idea/
 .vscode/
 
-# 가상환경
-venv/
-.venv/
-env/
-.bin/
-bin/
-lib/
-include/
-pyvenv.cfg
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-dist/
-build/
-.coverage
-.pytest_cache/
-.mypy_cache/
-.ipynb_checkpoints/
-
-# OS / IDE
-.DS_Store
-.idea/
-.vscode/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-dist/
-build/
-.ipynb_checkpoints/
-.pytest_cache/
-.mypy_cache/
-.coverage
-*.log
-
-# Virtual env (로컬 venv가 repo 안에 있을 때)
+# -------------------------------
+# Virtual Environment
+# -------------------------------
 venv/
 .venv/
 env/
@@ -59,8 +17,48 @@ lib/
 include/
 pyvenv.cfg
 
-# 환경파일
-.env
-*.log
+# -------------------------------
+# Python Bytecode / Cache
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
 
-pyvenv/
+# -------------------------------
+# Build / Packaging
+# -------------------------------
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# -------------------------------
+# Testing / Coverage
+# -------------------------------
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+.mypy_cache/
+.hypothesis/
+
+# -------------------------------
+# Jupyter / Notebooks
+# -------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------
+# Logs / Env files
+# -------------------------------
+*.log
+.env
+.env.*
+
+# -------------------------------
+# Others
+# -------------------------------
+*.sqlite3
+*.db
