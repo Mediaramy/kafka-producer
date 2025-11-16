@@ -1,0 +1,66 @@
+# created by virtualenv automatically
+.idea/
+# OS / 편집기
+.DS_Store
+.idea/
+.vscode/
+
+# 가상환경
+venv/
+.venv/
+env/
+.bin/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+
+# Virtual env (로컬 venv가 repo 안에 있을 때)
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# 환경파일
+.env
+*.log
+
+pyvenv/
